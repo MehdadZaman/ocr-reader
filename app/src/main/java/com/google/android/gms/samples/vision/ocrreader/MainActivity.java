@@ -101,7 +101,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 if (data != null) {
                     String text = data.getStringExtra(OcrCaptureActivity.TextBlockObject);
                     statusMessage.setText(R.string.ocr_success);
-                    textValue.setText(text);
+                    //textValue.setText(text);
                     //////////////////////////////
                     Intent intent = getPackageManager().getLaunchIntentForPackage("android.example.nutrilline");
 
