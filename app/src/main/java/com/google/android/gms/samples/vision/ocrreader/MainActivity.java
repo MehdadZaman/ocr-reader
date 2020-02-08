@@ -106,7 +106,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
                     Intent intent = getPackageManager().getLaunchIntentForPackage("android.example.nutrilline");
 
                     //intent.putExtra("VisionText", text);
-                    intent.putExtra("VisionText", "calories100fat5fiber4sodium6protein15");
+                    intent.putExtra("VisionText", "calories410fat20fiber1sodium510protein17");
                     intent.putExtra("UniqueID", "1234");
                     startActivity(intent);
                     Log.d(TAG, "Text read: " + text);
